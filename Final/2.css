@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./green-grass-3840x2160-5k-4k-wallpaper-macro-5175.jpg);
+    background-size: cover;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(0, 255, 0, 0.25);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav .logo{
+    width: 25%;
+    text-align: center;
+ 
+}
+
+nav h1{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+nav .menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+section h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: hsl(125,71%,66%);
+    text-shadow: 1px 1px 2px black;
+}
+
+section h1{
+    font-size: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: hsl(125,71%,66%);
+    text-shadow: 1px 1px 2px black;
+    margin: 30px 0;
+}
+
+section p{
+    font-size: 20px;
+    color: lawngreen;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 1px 1px 5px black;
+    margin-bottom: 40px;
+}
+
+.btnone{
+    background-color: rgb(20, 159, 89);
+  color: black;
+  text-decoration: none;
+  padding: 20px ;
+  border-radius: 5px;
+ text-transform: uppercase;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.btntwo{
+    background-color: hsl(150,71%,46%);
+    color: black;
+    text-decoration: none;
+    padding: 20px ;
+    border-radius: 5px;
+   text-transform: uppercase;
+   font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .change::after{
+   
+    content: "";
+    animation: subjectchange 10s infinite linear;
+    color: #00b894;
+
+
+
+  }
+
+  #abc{
+    color:white;
+  }
+
+  @keyframes subjectchange{
+    0%{
+       content: "Modern Physics";
+       color:coral;
+    
+    }
+
+    20%{
+        content: "Electricity & Electromagnetism";
+        color:cornflowerblue;
+    }
+
+    40%{
+        content:"Calculus";
+        color: aqua;
+    }
+
+    60%{
+        content: "English";
+        color: teal;
+    }
+
+    80%{
+        content: "C Programming" ;
+        color: yellow;
+    }
+
+    100%{
+        content: "Basic ICT Laboratory";
+        color: forestgreen;
+    }
+  }

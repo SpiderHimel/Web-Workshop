@@ -1,0 +1,17 @@
+.items{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px 0;
+    background-color: hotpink;
+}
+
+.container{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 2fr 1.7fr 1.3fr;
+   
+}
+#item1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}

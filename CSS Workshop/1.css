@@ -1,0 +1,21 @@
+.text{
+    background-color: coral;
+    color: rgb(red, green, blue);
+    padding: 3px 5px;
+    font-size: 12px;
+    border-radius: 4px 0px 4px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+   
+}
+
+.text:hover{
+    background-color:black;
+    color: aliceblue;
+    font-family: fantasy;
+    font-size: 10;
+    transition: 1s;
+    border-radius: 0px 4px 0px 4px
+    ;
+}
+
